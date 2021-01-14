@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Google Suite" duration-ms="17020" started-at="2021-01-14T06:26:48Z" finished-at="2021-01-14T06:27:05Z">
+    <groups>
+    </groups>
+    <test name="Google Test" duration-ms="17020" started-at="2021-01-14T06:26:48Z" finished-at="2021-01-14T06:27:05Z">
+      <class name="com.google.SearchTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.google.SearchTest@2d554825]" name="launchBrowser" is-config="true" duration-ms="5694" started-at="2021-01-14T06:26:48Z" finished-at="2021-01-14T06:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="launchGoogle()[pri:0, instance:com.google.SearchTest@2d554825]" name="launchGoogle" duration-ms="9907" started-at="2021-01-14T06:26:54Z" finished-at="2021-01-14T06:27:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchGoogle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.google.SearchTest@2d554825]" name="closeBrowser" is-config="true" duration-ms="1395" started-at="2021-01-14T06:27:04Z" finished-at="2021-01-14T06:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.google.SearchTest -->
+    </test> <!-- Google Test -->
+  </suite> <!-- Google Suite -->
+</testng-results>

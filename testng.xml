@@ -1,0 +1,7 @@
+<suite name="Google Suite">
+    <test name="Google Test">
+        <classes>
+            <class name="com.google.SearchTest"></class>
+        </classes>
+    </test>
+</suite>
