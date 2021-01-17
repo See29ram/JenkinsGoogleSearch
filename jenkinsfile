@@ -6,7 +6,8 @@ stage('Build')
 {
 steps{
 echo "Building the Project.........."
-bat "mvn clean"
+bat 'java -version'
+bat 'mvn clean'
 echo "Building the Project Done.........."
 }
 }
@@ -14,7 +15,8 @@ stage('Test')
 {
 steps{
 echo "Testing the Project.........."
-bat "mvn step"
+bat 'java -version'
+bat 'mvn test'
 echo "Testing the Project Done.........."
 
 }
